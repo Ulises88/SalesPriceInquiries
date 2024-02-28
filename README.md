@@ -8,21 +8,21 @@ product prices, on the pvp catalog.
 # Installation
 
 Clone this repository on your local machine:
-|----------------------------------------------------------------------------------------------------|
-| git clone https://github.com/Ulises88/SalesPriceInquiries/tree/develop/feature/salespriceinquiries |
-|----------------------------------------------------------------------------------------------------|
 
-# Main class SalesPriceInquiriesApplication
+
+------------------------------------------------------------------------------------------------------
+
+     git clone https://github.com/Ulises88/SalesPriceInquiries/tree/develop/feature/salespriceinquiries | 
+
+# Main class
 
 Access the project directory:
 
-|------------------------------------------------|
-| cd mx/com/uncertaincompany/salespriceinquiries |
-|------------------------------------------------|
+-------------------------------------------------------------------------------
+cd mx/com/uncertaincompany/salespriceinquiries/SalesPriceInquiriesApplication
 
 # Install the necessary dependencies to maven:
 
-|-------------------------------------------------------------|
 <groupId>org.springframework.boot</groupId>
 <artifactId>spring-boot-starter</artifactId>
 
@@ -47,7 +47,6 @@ Access the project directory:
 <groupId>org.apache.commons</groupId>
 <artifactId>commons-lang3</artifactId>
 <version>3.0</version>
-|-------------------------------------------------------------|
 
 # Configure the database
 
@@ -77,7 +76,7 @@ Open your browser and go to http://localhost:8080/h2-console to start using the 
 Open your browser and introduce to http://localhost:8080/salesinquiries the parameters to realize the query.
 
 For example:
-http://localhost:8080/salesinquiries?date=2020-06-14 16:00:00&product_id=35455&brand_id=1
+http://localhost:8080/salesinquiries?date=2020-06-14%2016:00:00&product_id=35455&brand_id=1
 
 This will display the list of records that match the parameters.
 
@@ -85,9 +84,6 @@ This will display the list of records that match the parameters.
 
 This project was developed by Ulises Ortega.
 
-# License
-
-This project is licensed under the KairosDS License. See the LICENSE file for more information.
 
 # Contact
 
